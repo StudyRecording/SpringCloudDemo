@@ -12,3 +12,4 @@ gen
 /user-profile-analysis.iml
 /.idea
 .DS_Store
+Code/SpringCloud/*/target/
