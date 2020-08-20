@@ -1,0 +1,13 @@
+server:
+  port: 1025 # 原本为80,后因为在Linux桌面版开发，因此权限不够，因此修改端口号
+
+spring:
+  application:
+    name: cloud-order-service
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka

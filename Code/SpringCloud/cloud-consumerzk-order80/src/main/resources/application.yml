@@ -1,0 +1,9 @@
+server:
+  port: 1025
+
+spring:
+  application:
+    name: cloud-consumer-order
+  cloud:
+    zookeeper:
+      connect-string: 172.16.210.128:2181
